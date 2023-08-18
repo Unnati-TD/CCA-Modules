@@ -9,7 +9,7 @@ This directory contains a script to solve a set of tasks. You can find the probl
 To download the script, run the following command in your terminal:
 
 ```bash
-wget -P /usr/bin https://raw.githubusercontent.com/Unnati-TD/RHCSA-CLA-Modules/main/Module2/UNNATI-RHCSA-CLA-MODULE2
+wget -P /usr/bin https://raw.githubusercontent.com/Unnati-TD/CCA/main/Docker/UNNATI-CCA-DOCKER
 ```
 
 ### Giving Execute Permission
@@ -17,7 +17,7 @@ wget -P /usr/bin https://raw.githubusercontent.com/Unnati-TD/RHCSA-CLA-Modules/m
 After downloading the script, you need to give it execute permission. Use the following command:
 
 ```bash
-chmod +x /usr/bin/UNNATI-RHCSA-CLA-MODULE2
+chmod +x /usr/bin/UNNATI-CCA-DOCKER
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ Once the script is downloaded and has the necessary permissions, you can use it 
 To use the script, execute the following command:
 
 ```bash
-UNNATI-RHCSA-CLA-MODULE2 grade task1
+UNNATI-CCA-DOCKER grade task1
 ```
 
 Replace 'task1' with the task number of your choice.
