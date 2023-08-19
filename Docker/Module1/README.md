@@ -1,6 +1,6 @@
 # Docker Readme
 
-This directory contains a script to solve a set of tasks. You can find the problem statements in the file named "CCA-Docker Tasks.md" or you can download the "CCA-Docker Tasks.pdf". To use the script, follow the instructions below:
+This directory contains a script to solve a set of tasks. You can find the problem statements in the file named "CCA-Docker Module1 tasks.md" or you can download the "CCA-Docker Module1 tasks.pdf". To use the script, follow the instructions below:
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ This directory contains a script to solve a set of tasks. You can find the probl
 To download the script, run the following command in your terminal:
 
 ```bash
-wget -P /usr/bin https://raw.githubusercontent.com/Unnati-TD/CCA/main/Docker/UNNATI-CCA-DOCKER
+wget -P /usr/bin https://raw.githubusercontent.com/Unnati-TD/CCA-Modules/main/Docker/Module1/UNNATI-CCA-DOCKER-MODULE1
 ```
 
 ### Giving Execute Permission
@@ -17,7 +17,7 @@ wget -P /usr/bin https://raw.githubusercontent.com/Unnati-TD/CCA/main/Docker/UNN
 After downloading the script, you need to give it execute permission. Use the following command:
 
 ```bash
-chmod +x /usr/bin/UNNATI-CCA-DOCKER
+chmod +x /usr/bin/UNNATI-CCA-DOCKER-MODULE1
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ Once the script is downloaded and has the necessary permissions, you can use it 
 To use the script, execute the following command:
 
 ```bash
-UNNATI-CCA-DOCKER grade task1
+UNNATI-CCA-DOCKER-MODULE1 grade task1
 ```
 
 Replace 'task1' with the task number of your choice.
