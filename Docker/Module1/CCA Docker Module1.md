@@ -5,13 +5,13 @@
 
 |**Sr. No.**|**Tasks**|
 | :-: | :-: |
-|1\.|Launch a container named "canvas" that contains the Ubuntu/nginx image. Launch a container called "blogapp" that contains a ghost (version 4) image. |
+|1\.|Launch a container named "canvas" that contains the ubuntu/nginx image. Launch a container called "blogapp" that contains a ghost (version 4) image. |
 |2\.|Rename the container named ‘canvas’ to ‘solis’.|
-|3\.|Launch an Eclipse/centos image container and store just the container's IP address in the /tmp/address.txt file. Name of the container should be 'dockerip'. |
+|3\.|Launch an eclipse/centos image container and store just the container's IP address in the /tmp/address.txt file. Name of the container should be 'dockerip'. |
 |4\.|Launch a container with the eclipse/centos image called "ccaapp" and set the until stop policy. The container should continue to run even after the system has booted up.|
 |5\.|Run a container using httpd image and forward to port number 48080. Name of the container must be ‘mywebapp1’.|
 |6\.|Run a hello openshift container with name myappocp and forward to the port number 37920.|
-|7\.|Launch a container with the myvolinst name, attach the /mnt directory to the container's /mnt directory, then run the container using the Ubuntu/nginx image. Use the host volume.|
+|7\.|Launch a container with the myvolinst name, attach the /mnt directory to the container's /mnt directory, then run the container using the ubuntu/nginx image. Use the host volume.|
 |8\.|Make the /unnati/appdata directory and use the eclipse/centos image to map it to the /opt directory of the "unnatiappcontainer."|
 |9\.|Run a container with name ‘myhttpdvol’ using httpd image. Attach /myappdata directory to the Document Root directory of the container. The web page should display ‘Welcome to CCA’ message’.|
 |10\.|Run a container with nginx image and name ‘webapp1’, Forward the port of container to 53719 port number. Attach volume /srv/linux/data/ to the web page directory of the container containing message "Welcome to LAA".|
